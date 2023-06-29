@@ -103,7 +103,7 @@ public class MyClass : MonoBehaviour
 }
 </code></pre>
 <p>will give you the following output:</p>
-<p><img src="../../../images/packages/debugging/cdebug_output.jpg" alt="Output"></p>
+<p><img src="../../../images/coinpackages/debugging/cdebug_output.jpg" alt="Output"></p>
 <p>Note that default color of log messages is <code>white</code>. You can change default colors for different log types by changing <code>DebugInfoColor</code>, <code>DebugWarningColor</code> and <code>DebugErrorColor</code> properties of <code>CDebug</code> class. For example:</p>
 <pre><code class="lang-cs">CDebug.DebugInfoColor = Colorize.Blue;
 CDebug.DebugErrorColor = Colorize.Gold;
@@ -112,7 +112,7 @@ CDebug.Log(&quot;This is a standard log message.&quot;);
 CDebug.LogError(&quot;This is an error message&quot;);
 </code></pre>
 <p>Output:</p>
-<p><img src="../../../images/packages/debugging/cdebug_output_2.jpg" alt="Output"></p>
+<p><img src="../../../images/coinpackages/debugging/cdebug_output_2.jpg" alt="Output"></p>
 <h2 id="logging-with-clogger">Logging with <code>CLogger</code></h2>
 <p><code>CLogger</code> class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.</p>
 <p>To create a new logger, create a new instance of <code>CLogger</code> class and pass a <code>string</code> as a logger <code>tag</code>.</p>
@@ -159,7 +159,7 @@ CDebug.LogError(&quot;This is an error message&quot;);
     }
 </code></pre>
 <p>This will result in the following output:</p>
-<p><img src="../../../images/packages/debugging/clogger_output_1.jpg" alt="Output"></p>
+<p><img src="../../../images/coinpackages/debugging/clogger_output_1.jpg" alt="Output"></p>
 </article>
 
 

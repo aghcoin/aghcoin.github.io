@@ -36,7 +36,7 @@ public class MyClass : MonoBehaviour
 ```
 will give you the following output:
 
-![Output](~/images/packages/debugging/cdebug_output.jpg)
+![Output](~/images/coinpackages/debugging/cdebug_output.jpg)
 
 Note that default color of log messages is `white`. You can change default colors for different log types by changing `DebugInfoColor`, `DebugWarningColor` and `DebugErrorColor` properties of `CDebug` class. For example:
 
@@ -49,7 +49,7 @@ CDebug.LogError("This is an error message");
 ```
 Output:
 
-![Output](~/images/packages/debugging/cdebug_output_2.jpg)
+![Output](~/images/coinpackages/debugging/cdebug_output_2.jpg)
 
 ## Logging with `CLogger`
 `CLogger` class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.
@@ -107,4 +107,4 @@ void Start() {
 
 This will result in the following output:
 
-![Output](~/images/packages/debugging/clogger_output_1.jpg)
+![Output](~/images/coinpackages/debugging/clogger_output_1.jpg)
