@@ -29,6 +29,7 @@ jobs:
 
       - name: Copy Libraries to Runtime folder
         run: |
+            mkdir docs/src
             cp -r coinpkg.debugging/Runtime/* docs/src/
             cp -r coinpkg.testpackage/Runtime/* docs/src/
             cp -r coinpkg.playfabservices/Runtime/* docs/src/
