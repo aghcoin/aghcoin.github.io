@@ -29,9 +29,9 @@ jobs:
 
       - name: Copy Libraries to Runtime folder
         run: |
-            cp -r coinpkg.debugging/Runtime/* Runtime/
-            cp -r coinpkg.testpackage/Runtime/* Runtime/
-            cp -r coinpkg.playfabservices/Runtime/* Runtime/
+            cp -r coinpkg.debugging/Runtime/* docs/src/
+            cp -r coinpkg.testpackage/Runtime/* docs/src/
+            cp -r coinpkg.playfabservices/Runtime/* docs/src/
 
       - name: Dotnet Setup
         uses: actions/setup-dotnet@v3
