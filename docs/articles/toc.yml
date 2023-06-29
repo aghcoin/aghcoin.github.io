@@ -7,6 +7,6 @@ items:
 
   - name: Packages
   - name: Debugging
-    href: packages/debugging/debugging.md
+    href: coinpackages/debugging/debugging.md
   # - name: PlayFab
   #   href: packages/playfab/playfab.md

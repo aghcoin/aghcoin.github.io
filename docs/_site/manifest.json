@@ -27,6 +27,29 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/coinpackages/debugging/debugging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/coinpackages/debugging/debugging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/coinpackages/playfab/playfab.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/coinpackages/playfab/playfab.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/get_started/basics.md",
       "output": {
@@ -42,29 +65,6 @@
       "output": {
         ".html": {
           "relative_path": "articles/get_started/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "articles/packages/debugging/debugging.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/packages/debugging/debugging.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/packages/playfab/playfab.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/packages/playfab/playfab.html"
         }
       },
       "version": ""
