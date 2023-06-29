@@ -1,5 +1,5 @@
 ---
-redirect_url: "docs/introduction.html"
+redirect_url: "articles/introduction.html"
 ---
 # This is the **HOMEPAGE**.
 Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
