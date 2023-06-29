@@ -197,16 +197,9 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
