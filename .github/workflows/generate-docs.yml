@@ -8,16 +8,46 @@ on:
     workflow_dispatch:
 
 permissions:
-    contents: read
-    pull-requests: read
-    issues: read
-
-concurrency:
-    group: pages
-    cancel-in-progress: false
+    contents: write
+    pages: write
+    id-token: write
+    repository-projects: write
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - run: echo "Deploying"
+  generate-docs:
+    runs-on: ubuntu-latest  
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: mkdir Runtime
+
+      - name: Clone Libraries
+        run: |
+            git clone https://github.com/aghcoin/coinpkg.debugging.git
+            git clone https://github.com/aghcoin/coinpkg.testpackage.git
+            git clone https://github.com/aghcoin/coinpkg.playfabservices.git
+
+      - name: Copy Libraries to Runtime folder
+        run: |
+            cp -r coinpkg.debugging/Runtime/* Runtime/
+            cp -r coinpkg.testpackage/Runtime/* Runtime/
+            cp -r coinpkg.playfabservices/Runtime/* Runtime/
+
+      - name: Dotnet Setup
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.x
+
+      - run: dotnet tool update -g docfx
+      - run: docfx docs/docfx.json
+
+      - name: Check
+        run: |
+            ls -l docs/_site
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/_site
+
