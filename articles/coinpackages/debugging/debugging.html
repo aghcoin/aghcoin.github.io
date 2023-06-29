@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Debugging Package </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Debugging Package ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/articles/coinpackages/debugging/debugging.md/#L1">
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="AGH Code Industry">
+            AGH Code Industry
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="debugging-package"><code>Debugging</code> Package</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p><code>Debugging</code> package is a wrapper around Unity's default <code>Debug</code> and <code>Logger</code> classes. It provides a few additional features that are not available in the default <code>Debug</code> class, such as:</p>
+<ul>
+<li>Debugging with custom <code>colors</code></li>
+<li>Easy turning on/off debugging messages</li>
+<li>Automatic tags to differentiate between different debuggers</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>To install package, in <code>Unity Editor</code> go to <code>Window</code> -&gt; <code>Package Manager</code> -&gt; <code>Add package from git URL</code> and paste the following URL: <code>https://github.com/aghcoin/coinpkg.debugging.git</code></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This article is for version <code>1.0.0</code> of the package. If you are using a newer version some things you see here might be deprecated. Full, up-to-date documentation can be found in the <a href="../../../api/">API</a> section.</p>
+</div>
+<h2 id="static-debugging-with-cdebug">Static debugging with <code>CDebug</code></h2>
+<p><code>CDebug</code> class provides static methods to log debug messages from anywhere in the code. You can use it just like default <code>Debug</code> class. For example:</p>
+<pre><code class="lang-cs">using CoinPackage.Debugging;
+using UnityEngine;
+
+public class MyClass : MonoBehaviour
+{
+    void Start()
+    {
+        CDebug.Log(&quot;This is a standard log message.&quot;);
+        CDebug.Log(&quot;This is a log message with custom color.&quot;, Colorize.Magenta);
+        CDebug.LogFormat(LogType.Error, &quot;This is error message: {0}&quot;, &quot;message&quot;);
+    }
+}
+</code></pre>
+<p>will give you the following output:</p>
+<p><img src="/images/packages/debugging/cdebug_output.jpg" alt="Output"></p>
+<p>Note that default color of log messages is <code>white</code>. You can change default colors for different log types by changing <code>DebugInfoColor</code>, <code>DebugWarningColor</code> and <code>DebugErrorColor</code> properties of <code>CDebug</code> class. For example:</p>
+<pre><code class="lang-cs">CDebug.DebugInfoColor = Colorize.Blue;
+CDebug.DebugErrorColor = Colorize.Gold;
+        
+CDebug.Log(&quot;This is a standard log message.&quot;);
+CDebug.LogError(&quot;This is an error message&quot;);
+</code></pre>
+<p>Output:</p>
+<p><img src="/images/packages/debugging/cdebug_output_2.jpg" alt="Output"></p>
+<h2 id="logging-with-clogger">Logging with <code>CLogger</code></h2>
+<p><code>CLogger</code> class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.</p>
+<p>To create a new logger, create a new instance of <code>CLogger</code> class and pass a <code>string</code> as a logger <code>tag</code>.</p>
+<pre><code class="lang-cs">public class MyClass : MonoBehaviour {
+    private CLogger _myLogger;
+    void Start() {
+        _myLogger = new CLogger(&quot;MyClass&quot;);
+    }
+}
+</code></pre>
+<p>It will create a new logger with a tag <code>MyClass</code>. <code>Tag</code> is used to differentiate between different loggers. It is displayed in the console before the log message.</p>
+<p>You can use <code>CLogger</code> class just like <code>CDebug</code> class, but each instance can have its own settings.</p>
+<p>Here is an example of using <code>CLogger</code> class:</p>
+<pre><code class="lang-cs">void Start() {
+        // Change default log color of all instances
+        // For it to have any effect, you must change this
+        // setting before initialization of any instance
+        CLogger.DefaultInfoColor = Colorize.Cyan;
+        CLogger.DefaultWarningColor = Colorize.Orange;
+        
+        // Do not force all loggers to be enabled, this is false by default
+        // This setting works only if CLogger.GlobalLogEnabled is set to true
+        CLogger.ForceAllLoggersEnabled = false;
+        
+        // Initialize logger that points to this class
+        _myLogger = new CLogger(this) {
+            // Change tag decorator for this logger
+            TagDecorator = new CLogger.TagDecoratorPair() {
+                First = &quot;&lt;--&quot;,
+                Second = &quot;|&gt;&quot;
+            },
+            // Override default setting for default log messages
+            InfoColor = Colorize.Red
+        };
+
+        _myLogger.Log(&quot;Example log message.&quot;);
+        _myLogger.LogWarning(&quot;Example warning message.&quot;);
+
+        // Disable this logger. This setting will not work
+        // if CLogger.ForceAllLoggersEnabled is set to true.
+        _myLogger.LogEnabled = false;
+
+        _myLogger.Log(&quot;This should not be logged&quot;);
+    }
+</code></pre>
+<p>This will result in the following output:</p>
+<p><img src="/images/packages/debugging/clogger_output_1.jpg" alt="Output"></p>
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
