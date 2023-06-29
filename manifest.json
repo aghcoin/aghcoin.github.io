@@ -188,6 +188,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/get_started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/get_started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/index.md",
       "output": {
         ".html": {
