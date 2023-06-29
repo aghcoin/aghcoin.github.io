@@ -1,2 +1,6 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+# Packages documentation
+
+## What are Coin Packages?
+
+Coin packages are a way to distribute and install Unity packages developed by AGH Code Industry.
+This packages help to develop games and applications using Unity.
