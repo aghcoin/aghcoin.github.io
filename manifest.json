@@ -1,0 +1,232 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/aghcoin.github.io/aghcoin.github.io/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Debugging.CDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Debugging.CDebug.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Debugging.CLogger.TagDecoratorPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Debugging.CLogger.TagDecoratorPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Debugging.CLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Debugging.CLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Debugging.Colorize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Debugging.Colorize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Debugging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Debugging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.Leaderboards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.Leaderboards.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.NetworkPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkServiceError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.NetworkServiceError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkServiceErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.Statistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.NetworkServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.NetworkServices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Test.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Test.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoinPackage.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoinPackage.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,1231 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CoinPackage.Debugging
+  name: CoinPackage.Debugging
+  href: api/CoinPackage.Debugging.html
+  commentId: N:CoinPackage.Debugging
+  fullName: CoinPackage.Debugging
+  nameWithType: CoinPackage.Debugging
+- uid: CoinPackage.Debugging.CDebug
+  name: CDebug
+  href: api/CoinPackage.Debugging.CDebug.html
+  commentId: T:CoinPackage.Debugging.CDebug
+  fullName: CoinPackage.Debugging.CDebug
+  nameWithType: CDebug
+- uid: CoinPackage.Debugging.CDebug.DebugErrorColor
+  name: DebugErrorColor
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_DebugErrorColor
+  commentId: F:CoinPackage.Debugging.CDebug.DebugErrorColor
+  fullName: CoinPackage.Debugging.CDebug.DebugErrorColor
+  nameWithType: CDebug.DebugErrorColor
+- uid: CoinPackage.Debugging.CDebug.DebugInfoColor
+  name: DebugInfoColor
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_DebugInfoColor
+  commentId: F:CoinPackage.Debugging.CDebug.DebugInfoColor
+  fullName: CoinPackage.Debugging.CDebug.DebugInfoColor
+  nameWithType: CDebug.DebugInfoColor
+- uid: CoinPackage.Debugging.CDebug.DebugLogging
+  name: DebugLogging
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_DebugLogging
+  commentId: P:CoinPackage.Debugging.CDebug.DebugLogging
+  fullName: CoinPackage.Debugging.CDebug.DebugLogging
+  nameWithType: CDebug.DebugLogging
+- uid: CoinPackage.Debugging.CDebug.DebugLogging*
+  name: DebugLogging
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_DebugLogging_
+  commentId: Overload:CoinPackage.Debugging.CDebug.DebugLogging
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.DebugLogging
+  nameWithType: CDebug.DebugLogging
+- uid: CoinPackage.Debugging.CDebug.DebugWarningColor
+  name: DebugWarningColor
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_DebugWarningColor
+  commentId: F:CoinPackage.Debugging.CDebug.DebugWarningColor
+  fullName: CoinPackage.Debugging.CDebug.DebugWarningColor
+  nameWithType: CDebug.DebugWarningColor
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.Log(object, Colorize)
+  nameWithType.vb: CDebug.Log(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.Log(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
+  name: Log(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
+  name.vb: Log(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object)
+  nameWithType: CDebug.Log(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object)
+  name: Log(object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object)
+  name.vb: Log(Object)
+  fullName: CoinPackage.Debugging.CDebug.Log(object)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object)
+  nameWithType: CDebug.Log(object)
+  nameWithType.vb: CDebug.Log(Object)
+- uid: CoinPackage.Debugging.CDebug.Log*
+  name: Log
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_
+  commentId: Overload:CoinPackage.Debugging.CDebug.Log
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.Log
+  nameWithType: CDebug.Log
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogError(object, Colorize)
+  nameWithType.vb: CDebug.LogError(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogError(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
+  name: LogError(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
+  name.vb: LogError(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object)
+  nameWithType: CDebug.LogError(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object)
+  name: LogError(object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object)
+  name.vb: LogError(Object)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object)
+  nameWithType: CDebug.LogError(object)
+  nameWithType.vb: CDebug.LogError(Object)
+- uid: CoinPackage.Debugging.CDebug.LogError*
+  name: LogError
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_
+  commentId: Overload:CoinPackage.Debugging.CDebug.LogError
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.LogError
+  nameWithType: CDebug.LogError
+- uid: CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
+  name: LogException(Exception, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_System_Exception_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
+  fullName: CoinPackage.Debugging.CDebug.LogException(System.Exception, UnityEngine.Object)
+  nameWithType: CDebug.LogException(Exception, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.LogException(System.Exception)
+  name: LogException(Exception)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_System_Exception_
+  commentId: M:CoinPackage.Debugging.CDebug.LogException(System.Exception)
+  fullName: CoinPackage.Debugging.CDebug.LogException(System.Exception)
+  nameWithType: CDebug.LogException(Exception)
+- uid: CoinPackage.Debugging.CDebug.LogException*
+  name: LogException
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_
+  commentId: Overload:CoinPackage.Debugging.CDebug.LogException
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.LogException
+  nameWithType: CDebug.LogException
+- uid: CoinPackage.Debugging.CDebug.LogFormat(LogType,System.String,CoinPackage.Debugging.Colorize,System.Object[])
+  name: LogFormat(LogType, string, Colorize, params object[])
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogFormat_LogType_System_String_CoinPackage_Debugging_Colorize_System_Object___
+  commentId: M:CoinPackage.Debugging.CDebug.LogFormat(LogType,System.String,CoinPackage.Debugging.Colorize,System.Object[])
+  name.vb: LogFormat(LogType, String, Colorize, ParamArray Object())
+  fullName: CoinPackage.Debugging.CDebug.LogFormat(LogType, string, CoinPackage.Debugging.Colorize, params object[])
+  fullName.vb: CoinPackage.Debugging.CDebug.LogFormat(LogType, String, CoinPackage.Debugging.Colorize, ParamArray Object())
+  nameWithType: CDebug.LogFormat(LogType, string, Colorize, params object[])
+  nameWithType.vb: CDebug.LogFormat(LogType, String, Colorize, ParamArray Object())
+- uid: CoinPackage.Debugging.CDebug.LogFormat(LogType,System.String,System.Object[])
+  name: LogFormat(LogType, string, params object[])
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogFormat_LogType_System_String_System_Object___
+  commentId: M:CoinPackage.Debugging.CDebug.LogFormat(LogType,System.String,System.Object[])
+  name.vb: LogFormat(LogType, String, ParamArray Object())
+  fullName: CoinPackage.Debugging.CDebug.LogFormat(LogType, string, params object[])
+  fullName.vb: CoinPackage.Debugging.CDebug.LogFormat(LogType, String, ParamArray Object())
+  nameWithType: CDebug.LogFormat(LogType, string, params object[])
+  nameWithType.vb: CDebug.LogFormat(LogType, String, ParamArray Object())
+- uid: CoinPackage.Debugging.CDebug.LogFormat*
+  name: LogFormat
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogFormat_
+  commentId: Overload:CoinPackage.Debugging.CDebug.LogFormat
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.LogFormat
+  nameWithType: CDebug.LogFormat
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogWarning(object, Colorize)
+  nameWithType.vb: CDebug.LogWarning(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogWarning(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
+  name: LogWarning(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
+  name.vb: LogWarning(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object)
+  nameWithType: CDebug.LogWarning(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object)
+  name: LogWarning(object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object)
+  name.vb: LogWarning(Object)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object)
+  nameWithType: CDebug.LogWarning(object)
+  nameWithType.vb: CDebug.LogWarning(Object)
+- uid: CoinPackage.Debugging.CDebug.LogWarning*
+  name: LogWarning
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_
+  commentId: Overload:CoinPackage.Debugging.CDebug.LogWarning
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.LogWarning
+  nameWithType: CDebug.LogWarning
+- uid: CoinPackage.Debugging.CDebug.UnityDebugLogging
+  name: UnityDebugLogging
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_UnityDebugLogging
+  commentId: P:CoinPackage.Debugging.CDebug.UnityDebugLogging
+  fullName: CoinPackage.Debugging.CDebug.UnityDebugLogging
+  nameWithType: CDebug.UnityDebugLogging
+- uid: CoinPackage.Debugging.CDebug.UnityDebugLogging*
+  name: UnityDebugLogging
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_UnityDebugLogging_
+  commentId: Overload:CoinPackage.Debugging.CDebug.UnityDebugLogging
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CDebug.UnityDebugLogging
+  nameWithType: CDebug.UnityDebugLogging
+- uid: CoinPackage.Debugging.CLogger
+  name: CLogger
+  href: api/CoinPackage.Debugging.CLogger.html
+  commentId: T:CoinPackage.Debugging.CLogger
+  fullName: CoinPackage.Debugging.CLogger
+  nameWithType: CLogger
+- uid: CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
+  name: CLogger(object, ILogHandler)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_System_Object_ILogHandler_
+  commentId: M:CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
+  name.vb: New(Object, ILogHandler)
+  fullName: CoinPackage.Debugging.CLogger.CLogger(object, ILogHandler)
+  fullName.vb: CoinPackage.Debugging.CLogger.New(Object, ILogHandler)
+  nameWithType: CLogger.CLogger(object, ILogHandler)
+  nameWithType.vb: CLogger.New(Object, ILogHandler)
+- uid: CoinPackage.Debugging.CLogger.#ctor(System.Object)
+  name: CLogger(object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_System_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.#ctor(System.Object)
+  name.vb: New(Object)
+  fullName: CoinPackage.Debugging.CLogger.CLogger(object)
+  fullName.vb: CoinPackage.Debugging.CLogger.New(Object)
+  nameWithType: CLogger.CLogger(object)
+  nameWithType.vb: CLogger.New(Object)
+- uid: CoinPackage.Debugging.CLogger.#ctor*
+  name: CLogger
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_
+  commentId: Overload:CoinPackage.Debugging.CLogger.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CoinPackage.Debugging.CLogger.CLogger
+  fullName.vb: CoinPackage.Debugging.CLogger.New
+  nameWithType: CLogger.CLogger
+  nameWithType.vb: CLogger.New
+- uid: CoinPackage.Debugging.CLogger.DefaultErrorColor
+  name: DefaultErrorColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_DefaultErrorColor
+  commentId: F:CoinPackage.Debugging.CLogger.DefaultErrorColor
+  fullName: CoinPackage.Debugging.CLogger.DefaultErrorColor
+  nameWithType: CLogger.DefaultErrorColor
+- uid: CoinPackage.Debugging.CLogger.DefaultInfoColor
+  name: DefaultInfoColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_DefaultInfoColor
+  commentId: F:CoinPackage.Debugging.CLogger.DefaultInfoColor
+  fullName: CoinPackage.Debugging.CLogger.DefaultInfoColor
+  nameWithType: CLogger.DefaultInfoColor
+- uid: CoinPackage.Debugging.CLogger.DefaultLogHandler
+  name: DefaultLogHandler
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_DefaultLogHandler
+  commentId: F:CoinPackage.Debugging.CLogger.DefaultLogHandler
+  fullName: CoinPackage.Debugging.CLogger.DefaultLogHandler
+  nameWithType: CLogger.DefaultLogHandler
+- uid: CoinPackage.Debugging.CLogger.DefaultTagDecorator
+  name: DefaultTagDecorator
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_DefaultTagDecorator
+  commentId: F:CoinPackage.Debugging.CLogger.DefaultTagDecorator
+  fullName: CoinPackage.Debugging.CLogger.DefaultTagDecorator
+  nameWithType: CLogger.DefaultTagDecorator
+- uid: CoinPackage.Debugging.CLogger.DefaultWarningColor
+  name: DefaultWarningColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_DefaultWarningColor
+  commentId: F:CoinPackage.Debugging.CLogger.DefaultWarningColor
+  fullName: CoinPackage.Debugging.CLogger.DefaultWarningColor
+  nameWithType: CLogger.DefaultWarningColor
+- uid: CoinPackage.Debugging.CLogger.ErrorColor
+  name: ErrorColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_ErrorColor
+  commentId: F:CoinPackage.Debugging.CLogger.ErrorColor
+  fullName: CoinPackage.Debugging.CLogger.ErrorColor
+  nameWithType: CLogger.ErrorColor
+- uid: CoinPackage.Debugging.CLogger.ForceAllLoggersEnabled
+  name: ForceAllLoggersEnabled
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_ForceAllLoggersEnabled
+  commentId: F:CoinPackage.Debugging.CLogger.ForceAllLoggersEnabled
+  fullName: CoinPackage.Debugging.CLogger.ForceAllLoggersEnabled
+  nameWithType: CLogger.ForceAllLoggersEnabled
+- uid: CoinPackage.Debugging.CLogger.GlobalLogEnabled
+  name: GlobalLogEnabled
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_GlobalLogEnabled
+  commentId: F:CoinPackage.Debugging.CLogger.GlobalLogEnabled
+  fullName: CoinPackage.Debugging.CLogger.GlobalLogEnabled
+  nameWithType: CLogger.GlobalLogEnabled
+- uid: CoinPackage.Debugging.CLogger.InfoColor
+  name: InfoColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_InfoColor
+  commentId: F:CoinPackage.Debugging.CLogger.InfoColor
+  fullName: CoinPackage.Debugging.CLogger.InfoColor
+  nameWithType: CLogger.InfoColor
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.Log(object, Colorize)
+  nameWithType.vb: CLogger.Log(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.Log(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
+  name: Log(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
+  name.vb: Log(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object)
+  nameWithType: CLogger.Log(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object)
+  name: Log(object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object)
+  name.vb: Log(Object)
+  fullName: CoinPackage.Debugging.CLogger.Log(object)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object)
+  nameWithType: CLogger.Log(object)
+  nameWithType.vb: CLogger.Log(Object)
+- uid: CoinPackage.Debugging.CLogger.Log*
+  name: Log
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_
+  commentId: Overload:CoinPackage.Debugging.CLogger.Log
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.Log
+  nameWithType: CLogger.Log
+- uid: CoinPackage.Debugging.CLogger.LogEnabled
+  name: LogEnabled
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogEnabled
+  commentId: P:CoinPackage.Debugging.CLogger.LogEnabled
+  fullName: CoinPackage.Debugging.CLogger.LogEnabled
+  nameWithType: CLogger.LogEnabled
+- uid: CoinPackage.Debugging.CLogger.LogEnabled*
+  name: LogEnabled
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogEnabled_
+  commentId: Overload:CoinPackage.Debugging.CLogger.LogEnabled
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.LogEnabled
+  nameWithType: CLogger.LogEnabled
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogError(object, Colorize)
+  nameWithType.vb: CLogger.LogError(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogError(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
+  name: LogError(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
+  name.vb: LogError(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object)
+  nameWithType: CLogger.LogError(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object)
+  name: LogError(object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object)
+  name.vb: LogError(Object)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object)
+  nameWithType: CLogger.LogError(object)
+  nameWithType.vb: CLogger.LogError(Object)
+- uid: CoinPackage.Debugging.CLogger.LogError*
+  name: LogError
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_
+  commentId: Overload:CoinPackage.Debugging.CLogger.LogError
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.LogError
+  nameWithType: CLogger.LogError
+- uid: CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
+  name: LogException(Exception, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_System_Exception_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
+  fullName: CoinPackage.Debugging.CLogger.LogException(System.Exception, UnityEngine.Object)
+  nameWithType: CLogger.LogException(Exception, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.LogException(System.Exception)
+  name: LogException(Exception)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_System_Exception_
+  commentId: M:CoinPackage.Debugging.CLogger.LogException(System.Exception)
+  fullName: CoinPackage.Debugging.CLogger.LogException(System.Exception)
+  nameWithType: CLogger.LogException(Exception)
+- uid: CoinPackage.Debugging.CLogger.LogException*
+  name: LogException
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_
+  commentId: Overload:CoinPackage.Debugging.CLogger.LogException
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.LogException
+  nameWithType: CLogger.LogException
+- uid: CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,CoinPackage.Debugging.Colorize,System.Object[])
+  name: LogFormat(LogType, string, Colorize, params object[])
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogFormat_LogType_System_String_CoinPackage_Debugging_Colorize_System_Object___
+  commentId: M:CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,CoinPackage.Debugging.Colorize,System.Object[])
+  name.vb: LogFormat(LogType, String, Colorize, ParamArray Object())
+  fullName: CoinPackage.Debugging.CLogger.LogFormat(LogType, string, CoinPackage.Debugging.Colorize, params object[])
+  fullName.vb: CoinPackage.Debugging.CLogger.LogFormat(LogType, String, CoinPackage.Debugging.Colorize, ParamArray Object())
+  nameWithType: CLogger.LogFormat(LogType, string, Colorize, params object[])
+  nameWithType.vb: CLogger.LogFormat(LogType, String, Colorize, ParamArray Object())
+- uid: CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,System.Object[])
+  name: LogFormat(LogType, string, params object[])
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogFormat_LogType_System_String_System_Object___
+  commentId: M:CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,System.Object[])
+  name.vb: LogFormat(LogType, String, ParamArray Object())
+  fullName: CoinPackage.Debugging.CLogger.LogFormat(LogType, string, params object[])
+  fullName.vb: CoinPackage.Debugging.CLogger.LogFormat(LogType, String, ParamArray Object())
+  nameWithType: CLogger.LogFormat(LogType, string, params object[])
+  nameWithType.vb: CLogger.LogFormat(LogType, String, ParamArray Object())
+- uid: CoinPackage.Debugging.CLogger.LogFormat*
+  name: LogFormat
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogFormat_
+  commentId: Overload:CoinPackage.Debugging.CLogger.LogFormat
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.LogFormat
+  nameWithType: CLogger.LogFormat
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogWarning(object, Colorize)
+  nameWithType.vb: CLogger.LogWarning(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogWarning(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
+  name: LogWarning(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
+  name.vb: LogWarning(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object)
+  nameWithType: CLogger.LogWarning(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object)
+  name: LogWarning(object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object)
+  name.vb: LogWarning(Object)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object)
+  nameWithType: CLogger.LogWarning(object)
+  nameWithType.vb: CLogger.LogWarning(Object)
+- uid: CoinPackage.Debugging.CLogger.LogWarning*
+  name: LogWarning
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_
+  commentId: Overload:CoinPackage.Debugging.CLogger.LogWarning
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.LogWarning
+  nameWithType: CLogger.LogWarning
+- uid: CoinPackage.Debugging.CLogger.TagDecorator
+  name: TagDecorator
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_TagDecorator
+  commentId: P:CoinPackage.Debugging.CLogger.TagDecorator
+  fullName: CoinPackage.Debugging.CLogger.TagDecorator
+  nameWithType: CLogger.TagDecorator
+- uid: CoinPackage.Debugging.CLogger.TagDecorator*
+  name: TagDecorator
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_TagDecorator_
+  commentId: Overload:CoinPackage.Debugging.CLogger.TagDecorator
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.CLogger.TagDecorator
+  nameWithType: CLogger.TagDecorator
+- uid: CoinPackage.Debugging.CLogger.TagDecoratorPair
+  name: CLogger.TagDecoratorPair
+  href: api/CoinPackage.Debugging.CLogger.TagDecoratorPair.html
+  commentId: T:CoinPackage.Debugging.CLogger.TagDecoratorPair
+  fullName: CoinPackage.Debugging.CLogger.TagDecoratorPair
+  nameWithType: CLogger.TagDecoratorPair
+- uid: CoinPackage.Debugging.CLogger.TagDecoratorPair.First
+  name: First
+  href: api/CoinPackage.Debugging.CLogger.TagDecoratorPair.html#CoinPackage_Debugging_CLogger_TagDecoratorPair_First
+  commentId: F:CoinPackage.Debugging.CLogger.TagDecoratorPair.First
+  fullName: CoinPackage.Debugging.CLogger.TagDecoratorPair.First
+  nameWithType: CLogger.TagDecoratorPair.First
+- uid: CoinPackage.Debugging.CLogger.TagDecoratorPair.Second
+  name: Second
+  href: api/CoinPackage.Debugging.CLogger.TagDecoratorPair.html#CoinPackage_Debugging_CLogger_TagDecoratorPair_Second
+  commentId: F:CoinPackage.Debugging.CLogger.TagDecoratorPair.Second
+  fullName: CoinPackage.Debugging.CLogger.TagDecoratorPair.Second
+  nameWithType: CLogger.TagDecoratorPair.Second
+- uid: CoinPackage.Debugging.CLogger.WarningColor
+  name: WarningColor
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_WarningColor
+  commentId: F:CoinPackage.Debugging.CLogger.WarningColor
+  fullName: CoinPackage.Debugging.CLogger.WarningColor
+  nameWithType: CLogger.WarningColor
+- uid: CoinPackage.Debugging.Colorize
+  name: Colorize
+  href: api/CoinPackage.Debugging.Colorize.html
+  commentId: T:CoinPackage.Debugging.Colorize
+  fullName: CoinPackage.Debugging.Colorize
+  nameWithType: Colorize
+- uid: CoinPackage.Debugging.Colorize.#ctor(Color)
+  name: Colorize(Color)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize__ctor_Color_
+  commentId: M:CoinPackage.Debugging.Colorize.#ctor(Color)
+  name.vb: New(Color)
+  fullName: CoinPackage.Debugging.Colorize.Colorize(Color)
+  fullName.vb: CoinPackage.Debugging.Colorize.New(Color)
+  nameWithType: Colorize.Colorize(Color)
+  nameWithType.vb: Colorize.New(Color)
+- uid: CoinPackage.Debugging.Colorize.#ctor(System.String)
+  name: Colorize(string)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize__ctor_System_String_
+  commentId: M:CoinPackage.Debugging.Colorize.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CoinPackage.Debugging.Colorize.Colorize(string)
+  fullName.vb: CoinPackage.Debugging.Colorize.New(String)
+  nameWithType: Colorize.Colorize(string)
+  nameWithType.vb: Colorize.New(String)
+- uid: CoinPackage.Debugging.Colorize.#ctor*
+  name: Colorize
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize__ctor_
+  commentId: Overload:CoinPackage.Debugging.Colorize.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CoinPackage.Debugging.Colorize.Colorize
+  fullName.vb: CoinPackage.Debugging.Colorize.New
+  nameWithType: Colorize.Colorize
+  nameWithType.vb: Colorize.New
+- uid: CoinPackage.Debugging.Colorize.Blue
+  name: Blue
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Blue
+  commentId: F:CoinPackage.Debugging.Colorize.Blue
+  fullName: CoinPackage.Debugging.Colorize.Blue
+  nameWithType: Colorize.Blue
+- uid: CoinPackage.Debugging.Colorize.ColorizeText(System.Object,CoinPackage.Debugging.Colorize)
+  name: ColorizeText(object, Colorize)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_ColorizeText_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.Colorize.ColorizeText(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: ColorizeText(Object, Colorize)
+  fullName: CoinPackage.Debugging.Colorize.ColorizeText(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.Colorize.ColorizeText(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: Colorize.ColorizeText(object, Colorize)
+  nameWithType.vb: Colorize.ColorizeText(Object, Colorize)
+- uid: CoinPackage.Debugging.Colorize.ColorizeText(System.Object,Color)
+  name: ColorizeText(object, Color)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_ColorizeText_System_Object_Color_
+  commentId: M:CoinPackage.Debugging.Colorize.ColorizeText(System.Object,Color)
+  name.vb: ColorizeText(Object, Color)
+  fullName: CoinPackage.Debugging.Colorize.ColorizeText(object, Color)
+  fullName.vb: CoinPackage.Debugging.Colorize.ColorizeText(Object, Color)
+  nameWithType: Colorize.ColorizeText(object, Color)
+  nameWithType.vb: Colorize.ColorizeText(Object, Color)
+- uid: CoinPackage.Debugging.Colorize.ColorizeText(System.Object,System.String)
+  name: ColorizeText(object, string)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_ColorizeText_System_Object_System_String_
+  commentId: M:CoinPackage.Debugging.Colorize.ColorizeText(System.Object,System.String)
+  name.vb: ColorizeText(Object, String)
+  fullName: CoinPackage.Debugging.Colorize.ColorizeText(object, string)
+  fullName.vb: CoinPackage.Debugging.Colorize.ColorizeText(Object, String)
+  nameWithType: Colorize.ColorizeText(object, string)
+  nameWithType.vb: Colorize.ColorizeText(Object, String)
+- uid: CoinPackage.Debugging.Colorize.ColorizeText*
+  name: ColorizeText
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_ColorizeText_
+  commentId: Overload:CoinPackage.Debugging.Colorize.ColorizeText
+  isSpec: "True"
+  fullName: CoinPackage.Debugging.Colorize.ColorizeText
+  nameWithType: Colorize.ColorizeText
+- uid: CoinPackage.Debugging.Colorize.Cyan
+  name: Cyan
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Cyan
+  commentId: F:CoinPackage.Debugging.Colorize.Cyan
+  fullName: CoinPackage.Debugging.Colorize.Cyan
+  nameWithType: Colorize.Cyan
+- uid: CoinPackage.Debugging.Colorize.DarkGreen
+  name: DarkGreen
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_DarkGreen
+  commentId: F:CoinPackage.Debugging.Colorize.DarkGreen
+  fullName: CoinPackage.Debugging.Colorize.DarkGreen
+  nameWithType: Colorize.DarkGreen
+- uid: CoinPackage.Debugging.Colorize.DarkOrange
+  name: DarkOrange
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_DarkOrange
+  commentId: F:CoinPackage.Debugging.Colorize.DarkOrange
+  fullName: CoinPackage.Debugging.Colorize.DarkOrange
+  nameWithType: Colorize.DarkOrange
+- uid: CoinPackage.Debugging.Colorize.DarkRed
+  name: DarkRed
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_DarkRed
+  commentId: F:CoinPackage.Debugging.Colorize.DarkRed
+  fullName: CoinPackage.Debugging.Colorize.DarkRed
+  nameWithType: Colorize.DarkRed
+- uid: CoinPackage.Debugging.Colorize.Default
+  name: Default
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Default
+  commentId: F:CoinPackage.Debugging.Colorize.Default
+  fullName: CoinPackage.Debugging.Colorize.Default
+  nameWithType: Colorize.Default
+- uid: CoinPackage.Debugging.Colorize.Gold
+  name: Gold
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Gold
+  commentId: F:CoinPackage.Debugging.Colorize.Gold
+  fullName: CoinPackage.Debugging.Colorize.Gold
+  nameWithType: Colorize.Gold
+- uid: CoinPackage.Debugging.Colorize.Green
+  name: Green
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Green
+  commentId: F:CoinPackage.Debugging.Colorize.Green
+  fullName: CoinPackage.Debugging.Colorize.Green
+  nameWithType: Colorize.Green
+- uid: CoinPackage.Debugging.Colorize.Magenta
+  name: Magenta
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Magenta
+  commentId: F:CoinPackage.Debugging.Colorize.Magenta
+  fullName: CoinPackage.Debugging.Colorize.Magenta
+  nameWithType: Colorize.Magenta
+- uid: CoinPackage.Debugging.Colorize.Olive
+  name: Olive
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Olive
+  commentId: F:CoinPackage.Debugging.Colorize.Olive
+  fullName: CoinPackage.Debugging.Colorize.Olive
+  nameWithType: Colorize.Olive
+- uid: CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
+  name: operator %(object, Colorize)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Mod(Object, Colorize)
+  fullName: CoinPackage.Debugging.Colorize.operator %(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.Colorize.Mod(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: Colorize.operator %(object, Colorize)
+  nameWithType.vb: Colorize.Mod(Object, Colorize)
+- uid: CoinPackage.Debugging.Colorize.op_Modulus(System.String,CoinPackage.Debugging.Colorize)
+  name: operator %(string, Colorize)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_System_String_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.Colorize.op_Modulus(System.String,CoinPackage.Debugging.Colorize)
+  name.vb: Mod(String, Colorize)
+  fullName: CoinPackage.Debugging.Colorize.operator %(string, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.Colorize.Mod(String, CoinPackage.Debugging.Colorize)
+  nameWithType: Colorize.operator %(string, Colorize)
+  nameWithType.vb: Colorize.Mod(String, Colorize)
+- uid: CoinPackage.Debugging.Colorize.op_Modulus*
+  name: operator %
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_
+  commentId: Overload:CoinPackage.Debugging.Colorize.op_Modulus
+  isSpec: "True"
+  name.vb: Mod
+  fullName: CoinPackage.Debugging.Colorize.operator %
+  fullName.vb: CoinPackage.Debugging.Colorize.Mod
+  nameWithType: Colorize.operator %
+  nameWithType.vb: Colorize.Mod
+- uid: CoinPackage.Debugging.Colorize.Orange
+  name: Orange
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Orange
+  commentId: F:CoinPackage.Debugging.Colorize.Orange
+  fullName: CoinPackage.Debugging.Colorize.Orange
+  nameWithType: Colorize.Orange
+- uid: CoinPackage.Debugging.Colorize.Purple
+  name: Purple
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Purple
+  commentId: F:CoinPackage.Debugging.Colorize.Purple
+  fullName: CoinPackage.Debugging.Colorize.Purple
+  nameWithType: Colorize.Purple
+- uid: CoinPackage.Debugging.Colorize.Red
+  name: Red
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Red
+  commentId: F:CoinPackage.Debugging.Colorize.Red
+  fullName: CoinPackage.Debugging.Colorize.Red
+  nameWithType: Colorize.Red
+- uid: CoinPackage.Debugging.Colorize.White
+  name: White
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_White
+  commentId: F:CoinPackage.Debugging.Colorize.White
+  fullName: CoinPackage.Debugging.Colorize.White
+  nameWithType: Colorize.White
+- uid: CoinPackage.Debugging.Colorize.Yellow
+  name: Yellow
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Yellow
+  commentId: F:CoinPackage.Debugging.Colorize.Yellow
+  fullName: CoinPackage.Debugging.Colorize.Yellow
+  nameWithType: Colorize.Yellow
+- uid: CoinPackage.NetworkServices
+  name: CoinPackage.NetworkServices
+  href: api/CoinPackage.NetworkServices.html
+  commentId: N:CoinPackage.NetworkServices
+  fullName: CoinPackage.NetworkServices
+  nameWithType: CoinPackage.NetworkServices
+- uid: CoinPackage.NetworkServices.Leaderboards
+  name: Leaderboards
+  href: api/CoinPackage.NetworkServices.Leaderboards.html
+  commentId: T:CoinPackage.NetworkServices.Leaderboards
+  fullName: CoinPackage.NetworkServices.Leaderboards
+  nameWithType: Leaderboards
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer(System.Int32,System.Action{PlayerLeaderboardEntry[]},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchBestScoreAroundPlayer(int, Action<PlayerLeaderboardEntry[]>, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchBestScoreAroundPlayer_System_Int32_System_Action_PlayerLeaderboardEntry____System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer(System.Int32,System.Action{PlayerLeaderboardEntry[]},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchBestScoreAroundPlayer(Integer, Action(Of PlayerLeaderboardEntry()), Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer(int, System.Action<PlayerLeaderboardEntry[]>, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer(Integer, System.Action(Of PlayerLeaderboardEntry()), System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Leaderboards.FetchBestScoreAroundPlayer(int, Action<PlayerLeaderboardEntry[]>, Action<NetworkServiceError>)
+  nameWithType.vb: Leaderboards.FetchBestScoreAroundPlayer(Integer, Action(Of PlayerLeaderboardEntry()), Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer*
+  name: FetchBestScoreAroundPlayer
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchBestScoreAroundPlayer_
+  commentId: Overload:CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreAroundPlayer
+  nameWithType: Leaderboards.FetchBestScoreAroundPlayer
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard(System.Int32,System.Action{PlayerLeaderboardEntry[]},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchBestScoreLeaderboard(int, Action<PlayerLeaderboardEntry[]>, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchBestScoreLeaderboard_System_Int32_System_Action_PlayerLeaderboardEntry____System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard(System.Int32,System.Action{PlayerLeaderboardEntry[]},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchBestScoreLeaderboard(Integer, Action(Of PlayerLeaderboardEntry()), Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard(int, System.Action<PlayerLeaderboardEntry[]>, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard(Integer, System.Action(Of PlayerLeaderboardEntry()), System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Leaderboards.FetchBestScoreLeaderboard(int, Action<PlayerLeaderboardEntry[]>, Action<NetworkServiceError>)
+  nameWithType.vb: Leaderboards.FetchBestScoreLeaderboard(Integer, Action(Of PlayerLeaderboardEntry()), Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard*
+  name: FetchBestScoreLeaderboard
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchBestScoreLeaderboard_
+  commentId: Overload:CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchBestScoreLeaderboard
+  nameWithType: Leaderboards.FetchBestScoreLeaderboard
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard(System.Action{System.Int32},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchPlayerPositionInLeaderboard(Action<int>, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchPlayerPositionInLeaderboard_System_Action_System_Int32__System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard(System.Action{System.Int32},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchPlayerPositionInLeaderboard(Action(Of Integer), Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard(System.Action<int>, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard(System.Action(Of Integer), System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Leaderboards.FetchPlayerPositionInLeaderboard(Action<int>, Action<NetworkServiceError>)
+  nameWithType.vb: Leaderboards.FetchPlayerPositionInLeaderboard(Action(Of Integer), Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard*
+  name: FetchPlayerPositionInLeaderboard
+  href: api/CoinPackage.NetworkServices.Leaderboards.html#CoinPackage_NetworkServices_Leaderboards_FetchPlayerPositionInLeaderboard_
+  commentId: Overload:CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Leaderboards.FetchPlayerPositionInLeaderboard
+  nameWithType: Leaderboards.FetchPlayerPositionInLeaderboard
+- uid: CoinPackage.NetworkServices.NetworkPlayer
+  name: NetworkPlayer
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html
+  commentId: T:CoinPackage.NetworkServices.NetworkPlayer
+  fullName: CoinPackage.NetworkServices.NetworkPlayer
+  nameWithType: NetworkPlayer
+- uid: CoinPackage.NetworkServices.NetworkPlayer.DisplayName
+  name: DisplayName
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_DisplayName
+  commentId: P:CoinPackage.NetworkServices.NetworkPlayer.DisplayName
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.DisplayName
+  nameWithType: NetworkPlayer.DisplayName
+- uid: CoinPackage.NetworkServices.NetworkPlayer.DisplayName*
+  name: DisplayName
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_DisplayName_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.DisplayName
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.DisplayName
+  nameWithType: NetworkPlayer.DisplayName
+- uid: CoinPackage.NetworkServices.NetworkPlayer.Login
+  name: Login
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_Login
+  commentId: P:CoinPackage.NetworkServices.NetworkPlayer.Login
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.Login
+  nameWithType: NetworkPlayer.Login
+- uid: CoinPackage.NetworkServices.NetworkPlayer.LogIn(System.String,System.String,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: LogIn(string, string, Action, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_LogIn_System_String_System_String_System_Action_System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.NetworkPlayer.LogIn(System.String,System.String,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: LogIn(String, String, Action, Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.LogIn(string, string, System.Action, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.NetworkPlayer.LogIn(String, String, System.Action, System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: NetworkPlayer.LogIn(string, string, Action, Action<NetworkServiceError>)
+  nameWithType.vb: NetworkPlayer.LogIn(String, String, Action, Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.NetworkPlayer.Login*
+  name: Login
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_Login_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.Login
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.Login
+  nameWithType: NetworkPlayer.Login
+- uid: CoinPackage.NetworkServices.NetworkPlayer.LogIn*
+  name: LogIn
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_LogIn_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.LogIn
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.LogIn
+  nameWithType: NetworkPlayer.LogIn
+- uid: CoinPackage.NetworkServices.NetworkPlayer.LogOut
+  name: LogOut()
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_LogOut
+  commentId: M:CoinPackage.NetworkServices.NetworkPlayer.LogOut
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.LogOut()
+  nameWithType: NetworkPlayer.LogOut()
+- uid: CoinPackage.NetworkServices.NetworkPlayer.LogOut*
+  name: LogOut
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_LogOut_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.LogOut
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.LogOut
+  nameWithType: NetworkPlayer.LogOut
+- uid: CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered
+  name: NewlyRegistered
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_NewlyRegistered
+  commentId: P:CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered
+  nameWithType: NetworkPlayer.NewlyRegistered
+- uid: CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered*
+  name: NewlyRegistered
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_NewlyRegistered_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.NewlyRegistered
+  nameWithType: NetworkPlayer.NewlyRegistered
+- uid: CoinPackage.NetworkServices.NetworkPlayer.Register(System.String,System.String,System.String,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: Register(string, string, string, Action, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_Register_System_String_System_String_System_String_System_Action_System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.NetworkPlayer.Register(System.String,System.String,System.String,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: Register(String, String, String, Action, Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.Register(string, string, string, System.Action, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.NetworkPlayer.Register(String, String, String, System.Action, System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: NetworkPlayer.Register(string, string, string, Action, Action<NetworkServiceError>)
+  nameWithType.vb: NetworkPlayer.Register(String, String, String, Action, Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.NetworkPlayer.Register*
+  name: Register
+  href: api/CoinPackage.NetworkServices.NetworkPlayer.html#CoinPackage_NetworkServices_NetworkPlayer_Register_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkPlayer.Register
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkPlayer.Register
+  nameWithType: NetworkPlayer.Register
+- uid: CoinPackage.NetworkServices.NetworkServiceError
+  name: NetworkServiceError
+  href: api/CoinPackage.NetworkServices.NetworkServiceError.html
+  commentId: T:CoinPackage.NetworkServices.NetworkServiceError
+  fullName: CoinPackage.NetworkServices.NetworkServiceError
+  nameWithType: NetworkServiceError
+- uid: CoinPackage.NetworkServices.NetworkServiceError.ErrorCode
+  name: ErrorCode
+  href: api/CoinPackage.NetworkServices.NetworkServiceError.html#CoinPackage_NetworkServices_NetworkServiceError_ErrorCode
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceError.ErrorCode
+  fullName: CoinPackage.NetworkServices.NetworkServiceError.ErrorCode
+  nameWithType: NetworkServiceError.ErrorCode
+- uid: CoinPackage.NetworkServices.NetworkServiceError.ErrorMessage
+  name: ErrorMessage
+  href: api/CoinPackage.NetworkServices.NetworkServiceError.html#CoinPackage_NetworkServices_NetworkServiceError_ErrorMessage
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceError.ErrorMessage
+  fullName: CoinPackage.NetworkServices.NetworkServiceError.ErrorMessage
+  nameWithType: NetworkServiceError.ErrorMessage
+- uid: CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage
+  name: GenerateErrorMessage()
+  href: api/CoinPackage.NetworkServices.NetworkServiceError.html#CoinPackage_NetworkServices_NetworkServiceError_GenerateErrorMessage
+  commentId: M:CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage
+  fullName: CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage()
+  nameWithType: NetworkServiceError.GenerateErrorMessage()
+- uid: CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage*
+  name: GenerateErrorMessage
+  href: api/CoinPackage.NetworkServices.NetworkServiceError.html#CoinPackage_NetworkServices_NetworkServiceError_GenerateErrorMessage_
+  commentId: Overload:CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.NetworkServiceError.GenerateErrorMessage
+  nameWithType: NetworkServiceError.GenerateErrorMessage
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode
+  name: NetworkServiceErrorCode
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html
+  commentId: T:CoinPackage.NetworkServices.NetworkServiceErrorCode
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode
+  nameWithType: NetworkServiceErrorCode
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchGates
+  name: FailedToFetchGates
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToFetchGates
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchGates
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchGates
+  nameWithType: NetworkServiceErrorCode.FailedToFetchGates
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchLeaderboard
+  name: FailedToFetchLeaderboard
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToFetchLeaderboard
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchLeaderboard
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchLeaderboard
+  nameWithType: NetworkServiceErrorCode.FailedToFetchLeaderboard
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchStatistics
+  name: FailedToFetchStatistics
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToFetchStatistics
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchStatistics
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchStatistics
+  nameWithType: NetworkServiceErrorCode.FailedToFetchStatistics
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchTitleData
+  name: FailedToFetchTitleData
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToFetchTitleData
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchTitleData
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToFetchTitleData
+  nameWithType: NetworkServiceErrorCode.FailedToFetchTitleData
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToLogIn
+  name: FailedToLogIn
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToLogIn
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToLogIn
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToLogIn
+  nameWithType: NetworkServiceErrorCode.FailedToLogIn
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToRegister
+  name: FailedToRegister
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToRegister
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToRegister
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToRegister
+  nameWithType: NetworkServiceErrorCode.FailedToRegister
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateGates
+  name: FailedToUpdateGates
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToUpdateGates
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateGates
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateGates
+  nameWithType: NetworkServiceErrorCode.FailedToUpdateGates
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateStatistics
+  name: FailedToUpdateStatistics
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FailedToUpdateStatistics
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateStatistics
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FailedToUpdateStatistics
+  nameWithType: NetworkServiceErrorCode.FailedToUpdateStatistics
+- uid: CoinPackage.NetworkServices.NetworkServiceErrorCode.FetchedEmptyValue
+  name: FetchedEmptyValue
+  href: api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html#CoinPackage_NetworkServices_NetworkServiceErrorCode_FetchedEmptyValue
+  commentId: F:CoinPackage.NetworkServices.NetworkServiceErrorCode.FetchedEmptyValue
+  fullName: CoinPackage.NetworkServices.NetworkServiceErrorCode.FetchedEmptyValue
+  nameWithType: NetworkServiceErrorCode.FetchedEmptyValue
+- uid: CoinPackage.NetworkServices.Settings
+  name: Settings
+  href: api/CoinPackage.NetworkServices.Settings.html
+  commentId: T:CoinPackage.NetworkServices.Settings
+  fullName: CoinPackage.NetworkServices.Settings
+  nameWithType: Settings
+- uid: CoinPackage.NetworkServices.Settings.CurrentLeaderboardName
+  name: CurrentLeaderboardName
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_CurrentLeaderboardName
+  commentId: P:CoinPackage.NetworkServices.Settings.CurrentLeaderboardName
+  fullName: CoinPackage.NetworkServices.Settings.CurrentLeaderboardName
+  nameWithType: Settings.CurrentLeaderboardName
+- uid: CoinPackage.NetworkServices.Settings.CurrentLeaderboardName*
+  name: CurrentLeaderboardName
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_CurrentLeaderboardName_
+  commentId: Overload:CoinPackage.NetworkServices.Settings.CurrentLeaderboardName
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Settings.CurrentLeaderboardName
+  nameWithType: Settings.CurrentLeaderboardName
+- uid: CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle
+  name: CurrentLeaderboardTitle
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_CurrentLeaderboardTitle
+  commentId: P:CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle
+  fullName: CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle
+  nameWithType: Settings.CurrentLeaderboardTitle
+- uid: CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle*
+  name: CurrentLeaderboardTitle
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_CurrentLeaderboardTitle_
+  commentId: Overload:CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Settings.CurrentLeaderboardTitle
+  nameWithType: Settings.CurrentLeaderboardTitle
+- uid: CoinPackage.NetworkServices.Settings.FetchTitleData(System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchTitleData(Action, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_FetchTitleData_System_Action_System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Settings.FetchTitleData(System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchTitleData(Action, Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Settings.FetchTitleData(System.Action, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Settings.FetchTitleData(System.Action, System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Settings.FetchTitleData(Action, Action<NetworkServiceError>)
+  nameWithType.vb: Settings.FetchTitleData(Action, Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Settings.FetchTitleData*
+  name: FetchTitleData
+  href: api/CoinPackage.NetworkServices.Settings.html#CoinPackage_NetworkServices_Settings_FetchTitleData_
+  commentId: Overload:CoinPackage.NetworkServices.Settings.FetchTitleData
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Settings.FetchTitleData
+  nameWithType: Settings.FetchTitleData
+- uid: CoinPackage.NetworkServices.Statistics
+  name: Statistics
+  href: api/CoinPackage.NetworkServices.Statistics.html
+  commentId: T:CoinPackage.NetworkServices.Statistics
+  fullName: CoinPackage.NetworkServices.Statistics
+  nameWithType: Statistics
+- uid: CoinPackage.NetworkServices.Statistics.BestScore
+  name: BestScore
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_BestScore
+  commentId: P:CoinPackage.NetworkServices.Statistics.BestScore
+  fullName: CoinPackage.NetworkServices.Statistics.BestScore
+  nameWithType: Statistics.BestScore
+- uid: CoinPackage.NetworkServices.Statistics.BestScore*
+  name: BestScore
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_BestScore_
+  commentId: Overload:CoinPackage.NetworkServices.Statistics.BestScore
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Statistics.BestScore
+  nameWithType: Statistics.BestScore
+- uid: CoinPackage.NetworkServices.Statistics.FetchBestScore(System.Action{System.Single},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchBestScore(Action<float>, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_FetchBestScore_System_Action_System_Single__System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Statistics.FetchBestScore(System.Action{System.Single},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchBestScore(Action(Of Single), Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Statistics.FetchBestScore(System.Action<float>, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Statistics.FetchBestScore(System.Action(Of Single), System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Statistics.FetchBestScore(Action<float>, Action<NetworkServiceError>)
+  nameWithType.vb: Statistics.FetchBestScore(Action(Of Single), Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Statistics.FetchBestScore*
+  name: FetchBestScore
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_FetchBestScore_
+  commentId: Overload:CoinPackage.NetworkServices.Statistics.FetchBestScore
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Statistics.FetchBestScore
+  nameWithType: Statistics.FetchBestScore
+- uid: CoinPackage.NetworkServices.Statistics.FetchGates(System.Int32,System.Action{System.Collections.Generic.List{System.Single}},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: FetchGates(int, Action<List<float>>, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_FetchGates_System_Int32_System_Action_System_Collections_Generic_List_System_Single___System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Statistics.FetchGates(System.Int32,System.Action{System.Collections.Generic.List{System.Single}},System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: FetchGates(Integer, Action(Of List(Of Single)), Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Statistics.FetchGates(int, System.Action<System.Collections.Generic.List<float>>, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Statistics.FetchGates(Integer, System.Action(Of System.Collections.Generic.List(Of Single)), System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Statistics.FetchGates(int, Action<List<float>>, Action<NetworkServiceError>)
+  nameWithType.vb: Statistics.FetchGates(Integer, Action(Of List(Of Single)), Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Statistics.FetchGates*
+  name: FetchGates
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_FetchGates_
+  commentId: Overload:CoinPackage.NetworkServices.Statistics.FetchGates
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Statistics.FetchGates
+  nameWithType: Statistics.FetchGates
+- uid: CoinPackage.NetworkServices.Statistics.UpdateBestScore(System.Single,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: UpdateBestScore(float, Action, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_UpdateBestScore_System_Single_System_Action_System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Statistics.UpdateBestScore(System.Single,System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: UpdateBestScore(Single, Action, Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Statistics.UpdateBestScore(float, System.Action, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Statistics.UpdateBestScore(Single, System.Action, System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Statistics.UpdateBestScore(float, Action, Action<NetworkServiceError>)
+  nameWithType.vb: Statistics.UpdateBestScore(Single, Action, Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Statistics.UpdateBestScore*
+  name: UpdateBestScore
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_UpdateBestScore_
+  commentId: Overload:CoinPackage.NetworkServices.Statistics.UpdateBestScore
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Statistics.UpdateBestScore
+  nameWithType: Statistics.UpdateBestScore
+- uid: CoinPackage.NetworkServices.Statistics.UpdateGates(System.Collections.Generic.List{System.Single},System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name: UpdateGates(List<float>, Action, Action<NetworkServiceError>)
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_UpdateGates_System_Collections_Generic_List_System_Single__System_Action_System_Action_CoinPackage_NetworkServices_NetworkServiceError__
+  commentId: M:CoinPackage.NetworkServices.Statistics.UpdateGates(System.Collections.Generic.List{System.Single},System.Action,System.Action{CoinPackage.NetworkServices.NetworkServiceError})
+  name.vb: UpdateGates(List(Of Single), Action, Action(Of NetworkServiceError))
+  fullName: CoinPackage.NetworkServices.Statistics.UpdateGates(System.Collections.Generic.List<float>, System.Action, System.Action<CoinPackage.NetworkServices.NetworkServiceError>)
+  fullName.vb: CoinPackage.NetworkServices.Statistics.UpdateGates(System.Collections.Generic.List(Of Single), System.Action, System.Action(Of CoinPackage.NetworkServices.NetworkServiceError))
+  nameWithType: Statistics.UpdateGates(List<float>, Action, Action<NetworkServiceError>)
+  nameWithType.vb: Statistics.UpdateGates(List(Of Single), Action, Action(Of NetworkServiceError))
+- uid: CoinPackage.NetworkServices.Statistics.UpdateGates*
+  name: UpdateGates
+  href: api/CoinPackage.NetworkServices.Statistics.html#CoinPackage_NetworkServices_Statistics_UpdateGates_
+  commentId: Overload:CoinPackage.NetworkServices.Statistics.UpdateGates
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Statistics.UpdateGates
+  nameWithType: Statistics.UpdateGates
+- uid: CoinPackage.NetworkServices.Utils
+  name: Utils
+  href: api/CoinPackage.NetworkServices.Utils.html
+  commentId: T:CoinPackage.NetworkServices.Utils
+  fullName: CoinPackage.NetworkServices.Utils
+  nameWithType: Utils
+- uid: CoinPackage.NetworkServices.Utils.EmailCheck(System.String,System.String@)
+  name: EmailCheck(string, out string)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_EmailCheck_System_String_System_String__
+  commentId: M:CoinPackage.NetworkServices.Utils.EmailCheck(System.String,System.String@)
+  name.vb: EmailCheck(String, String)
+  fullName: CoinPackage.NetworkServices.Utils.EmailCheck(string, out string)
+  fullName.vb: CoinPackage.NetworkServices.Utils.EmailCheck(String, String)
+  nameWithType: Utils.EmailCheck(string, out string)
+  nameWithType.vb: Utils.EmailCheck(String, String)
+- uid: CoinPackage.NetworkServices.Utils.EmailCheck*
+  name: EmailCheck
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_EmailCheck_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.EmailCheck
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.EmailCheck
+  nameWithType: Utils.EmailCheck
+- uid: CoinPackage.NetworkServices.Utils.IndexToGateName(System.Int32)
+  name: IndexToGateName(int)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_IndexToGateName_System_Int32_
+  commentId: M:CoinPackage.NetworkServices.Utils.IndexToGateName(System.Int32)
+  name.vb: IndexToGateName(Integer)
+  fullName: CoinPackage.NetworkServices.Utils.IndexToGateName(int)
+  fullName.vb: CoinPackage.NetworkServices.Utils.IndexToGateName(Integer)
+  nameWithType: Utils.IndexToGateName(int)
+  nameWithType.vb: Utils.IndexToGateName(Integer)
+- uid: CoinPackage.NetworkServices.Utils.IndexToGateName*
+  name: IndexToGateName
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_IndexToGateName_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.IndexToGateName
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.IndexToGateName
+  nameWithType: Utils.IndexToGateName
+- uid: CoinPackage.NetworkServices.Utils.LoginCheck(System.String,System.String@)
+  name: LoginCheck(string, out string)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_LoginCheck_System_String_System_String__
+  commentId: M:CoinPackage.NetworkServices.Utils.LoginCheck(System.String,System.String@)
+  name.vb: LoginCheck(String, String)
+  fullName: CoinPackage.NetworkServices.Utils.LoginCheck(string, out string)
+  fullName.vb: CoinPackage.NetworkServices.Utils.LoginCheck(String, String)
+  nameWithType: Utils.LoginCheck(string, out string)
+  nameWithType.vb: Utils.LoginCheck(String, String)
+- uid: CoinPackage.NetworkServices.Utils.LoginCheck*
+  name: LoginCheck
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_LoginCheck_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.LoginCheck
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.LoginCheck
+  nameWithType: Utils.LoginCheck
+- uid: CoinPackage.NetworkServices.Utils.PasswordCheck(System.String,System.String@)
+  name: PasswordCheck(string, out string)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_PasswordCheck_System_String_System_String__
+  commentId: M:CoinPackage.NetworkServices.Utils.PasswordCheck(System.String,System.String@)
+  name.vb: PasswordCheck(String, String)
+  fullName: CoinPackage.NetworkServices.Utils.PasswordCheck(string, out string)
+  fullName.vb: CoinPackage.NetworkServices.Utils.PasswordCheck(String, String)
+  nameWithType: Utils.PasswordCheck(string, out string)
+  nameWithType.vb: Utils.PasswordCheck(String, String)
+- uid: CoinPackage.NetworkServices.Utils.PasswordCheck*
+  name: PasswordCheck
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_PasswordCheck_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.PasswordCheck
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.PasswordCheck
+  nameWithType: Utils.PasswordCheck
+- uid: CoinPackage.NetworkServices.Utils.StatToTime(System.Int32)
+  name: StatToTime(int)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_StatToTime_System_Int32_
+  commentId: M:CoinPackage.NetworkServices.Utils.StatToTime(System.Int32)
+  name.vb: StatToTime(Integer)
+  fullName: CoinPackage.NetworkServices.Utils.StatToTime(int)
+  fullName.vb: CoinPackage.NetworkServices.Utils.StatToTime(Integer)
+  nameWithType: Utils.StatToTime(int)
+  nameWithType.vb: Utils.StatToTime(Integer)
+- uid: CoinPackage.NetworkServices.Utils.StatToTime*
+  name: StatToTime
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_StatToTime_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.StatToTime
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.StatToTime
+  nameWithType: Utils.StatToTime
+- uid: CoinPackage.NetworkServices.Utils.TimeToStat(System.Single)
+  name: TimeToStat(float)
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_TimeToStat_System_Single_
+  commentId: M:CoinPackage.NetworkServices.Utils.TimeToStat(System.Single)
+  name.vb: TimeToStat(Single)
+  fullName: CoinPackage.NetworkServices.Utils.TimeToStat(float)
+  fullName.vb: CoinPackage.NetworkServices.Utils.TimeToStat(Single)
+  nameWithType: Utils.TimeToStat(float)
+  nameWithType.vb: Utils.TimeToStat(Single)
+- uid: CoinPackage.NetworkServices.Utils.TimeToStat*
+  name: TimeToStat
+  href: api/CoinPackage.NetworkServices.Utils.html#CoinPackage_NetworkServices_Utils_TimeToStat_
+  commentId: Overload:CoinPackage.NetworkServices.Utils.TimeToStat
+  isSpec: "True"
+  fullName: CoinPackage.NetworkServices.Utils.TimeToStat
+  nameWithType: Utils.TimeToStat
+- uid: CoinPackage.Test
+  name: CoinPackage.Test
+  href: api/CoinPackage.Test.html
+  commentId: N:CoinPackage.Test
+  fullName: CoinPackage.Test
+  nameWithType: CoinPackage.Test
+- uid: CoinPackage.Test.Test
+  name: Test
+  href: api/CoinPackage.Test.Test.html
+  commentId: T:CoinPackage.Test.Test
+  fullName: CoinPackage.Test.Test
+  nameWithType: Test
+- uid: CoinPackage.Test.Test.Print(System.String)
+  name: Print(string)
+  href: api/CoinPackage.Test.Test.html#CoinPackage_Test_Test_Print_System_String_
+  commentId: M:CoinPackage.Test.Test.Print(System.String)
+  name.vb: Print(String)
+  fullName: CoinPackage.Test.Test.Print(string)
+  fullName.vb: CoinPackage.Test.Test.Print(String)
+  nameWithType: Test.Print(string)
+  nameWithType.vb: Test.Print(String)
+- uid: CoinPackage.Test.Test.Print*
+  name: Print
+  href: api/CoinPackage.Test.Test.html#CoinPackage_Test_Test_Print_
+  commentId: Overload:CoinPackage.Test.Test.Print
+  isSpec: "True"
+  fullName: CoinPackage.Test.Test.Print
+  nameWithType: Test.Print
