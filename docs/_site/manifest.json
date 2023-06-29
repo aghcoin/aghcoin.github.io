@@ -84,30 +84,30 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/packages/debugging/cdebug_output.jpg",
+      "source_relative_path": "images/coinpackages/debugging/cdebug_output.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/packages/debugging/cdebug_output.jpg"
+          "relative_path": "images/coinpackages/debugging/cdebug_output.jpg"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/packages/debugging/cdebug_output_2.jpg",
+      "source_relative_path": "images/coinpackages/debugging/cdebug_output_2.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/packages/debugging/cdebug_output_2.jpg"
+          "relative_path": "images/coinpackages/debugging/cdebug_output_2.jpg"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/packages/debugging/clogger_output_1.jpg",
+      "source_relative_path": "images/coinpackages/debugging/clogger_output_1.jpg",
       "output": {
         "resource": {
-          "relative_path": "images/packages/debugging/clogger_output_1.jpg"
+          "relative_path": "images/coinpackages/debugging/clogger_output_1.jpg"
         }
       },
       "version": ""
