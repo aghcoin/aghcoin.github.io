@@ -20,6 +20,10 @@
     }
   ],
   "build": {
+    "globalMetadata": {
+      "_appName": "AGH Code Industry",
+      "_disableContribution": true
+    },
     "content": [
       {
         "files": [
