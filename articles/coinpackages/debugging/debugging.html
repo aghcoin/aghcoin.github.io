@@ -113,6 +113,10 @@ CDebug.LogError(&quot;This is an error message&quot;);
 </code></pre>
 <p>Output:</p>
 <p><img src="../../../images/coinpackages/debugging/cdebug_output_2.jpg" alt="Output"></p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p><code>CDebug</code> logs work only in <code>Debug</code> mode and are ignored in release builds. If you want to log messages in release builds, use <code>CLogger</code> class.</p>
+</div>
 <h2 id="logging-with-clogger">Logging with <code>CLogger</code></h2>
 <p><code>CLogger</code> class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.</p>
 <p>To create a new logger, create a new instance of <code>CLogger</code> class and pass a <code>object</code> (this time it's a <code>string</code>) as a logger <code>tag</code>.</p>
