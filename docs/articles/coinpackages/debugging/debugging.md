@@ -51,6 +51,9 @@ Output:
 
 ![Output](~/images/coinpackages/debugging/cdebug_output_2.jpg)
 
+> [!IMPORTANT]
+> `CDebug` logs work only in `Debug` mode and are ignored in release builds. If you want to log messages in release builds, use `CLogger` class.
+
 ## Logging with `CLogger`
 `CLogger` class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.
 
