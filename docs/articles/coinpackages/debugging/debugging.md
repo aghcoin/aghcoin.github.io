@@ -1,5 +1,5 @@
 ---
-for_version: 1.0.0
+for_version: 1.0.x
 ---
 
 # `Debugging` Package
@@ -14,7 +14,7 @@ for_version: 1.0.0
 To install package, in `Unity Editor` go to `Window` -> `Package Manager` -> `Add package from git URL` and paste the following URL: `https://github.com/aghcoin/coinpkg.debugging.git`
 
 > [!NOTE]
-> This article is for version `1.0.0` of the package. If you are using a newer version some things you see here might be deprecated. Full, up-to-date documentation can be found in the [API](~/api/) section.
+> This article is for version `1.0.x` of the package. If you are using a newer version some things you see here might be deprecated. Full, up-to-date documentation can be found in the [API](~/api/) section.
 
 ## Static debugging with `CDebug`
 
@@ -54,7 +54,7 @@ Output:
 ## Logging with `CLogger`
 `CLogger` class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.
 
-To create a new logger, create a new instance of `CLogger` class and pass a `string` as a logger `tag`.
+To create a new logger, create a new instance of `CLogger` class and pass a `object` (this time it's a `string`) as a logger `tag`.
 
 ```cs
 public class MyClass : MonoBehaviour {
@@ -73,7 +73,7 @@ Here is an example of using `CLogger` class:
 
 ```cs
 void Start() {
-        // Change default log color of all instances
+        // Change default log color of all instances.
         // For it to have any effect, you must change this
         // setting before initialization of any instance
         CLogger.DefaultInfoColor = Colorize.Cyan;
@@ -90,7 +90,7 @@ void Start() {
                 First = "<--",
                 Second = "|>"
             },
-            // Override default setting for default log messages
+            // Override default setting for log messages
             InfoColor = Colorize.Red
         };
 
@@ -108,3 +108,35 @@ void Start() {
 This will result in the following output:
 
 ![Output](~/images/coinpackages/debugging/clogger_output_1.jpg)
+
+## Colouring text with `Colorize`
+
+`Colorize` class provides a way to color text in the console. It is used by `CDebug` and `CLogger` classes to color log messages. You can also use it to color your own text.
+
+Example usage:
+```cs
+// Colorize using `%` operator
+CDebug.Log($"I am {"red" % Colorize.Red} and I am {"green" % Colorize.Green}.");
+
+// Colorize using `Colorize.ColorizeText` method
+CDebug.Log($"I am {Colorize.ColorizeText("red", Colorize.Red)} and I am {Colorize.ColorizeText("green", Colorize.Green)}.");
+
+// Another way
+CDebug.Log($"I am {Colorize.ColorizeText("red", Color.red)} and I am {Colorize.ColorizeText("green", "#00FF00")}.");
+```
+
+Output:
+
+![Output](~/images/coinpackages/debugging/colorize_output_1.jpg)
+
+Nothing stops you from defining your own colors:
+```cs
+Colorize myMagenta = new Colorize(Color.magenta);
+Colorize myCustomColor = new Colorize("#ffc400");
+
+CDebug.Log($"This is {"magenta" % myMagenta}, and this is {"custom" % myCustomColor}.");
+```
+
+Output:
+
+![Output](~/images/coinpackages/debugging/colorize_output_2.jpg)

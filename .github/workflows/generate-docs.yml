@@ -24,15 +24,15 @@ jobs:
       - name: Clone Libraries
         run: |
             git clone https://github.com/aghcoin/coinpkg.debugging.git
-            git clone https://github.com/aghcoin/coinpkg.testpackage.git
-            git clone https://github.com/aghcoin/coinpkg.playfabservices.git
+          # git clone https://github.com/aghcoin/coinpkg.testpackage.git
+          # git clone https://github.com/aghcoin/coinpkg.playfabservices.git
 
       - name: Copy Libraries to Runtime folder
         run: |
             mkdir docs/src
             cp -r coinpkg.debugging/Runtime/* docs/src/
-            cp -r coinpkg.testpackage/Runtime/* docs/src/
-            cp -r coinpkg.playfabservices/Runtime/* docs/src/
+          # cp -r coinpkg.testpackage/Runtime/* docs/src/
+          # cp -r coinpkg.playfabservices/Runtime/* docs/src/
 
       - name: Dotnet Setup
         uses: actions/setup-dotnet@v3

@@ -85,7 +85,7 @@
 <p>To install package, in <code>Unity Editor</code> go to <code>Window</code> -&gt; <code>Package Manager</code> -&gt; <code>Add package from git URL</code> and paste the following URL: <code>https://github.com/aghcoin/coinpkg.debugging.git</code></p>
 <div class="NOTE">
 <h5>Note</h5>
-<p>This article is for version <code>1.0.0</code> of the package. If you are using a newer version some things you see here might be deprecated. Full, up-to-date documentation can be found in the <a href="../../../api/">API</a> section.</p>
+<p>This article is for version <code>1.0.x</code> of the package. If you are using a newer version some things you see here might be deprecated. Full, up-to-date documentation can be found in the <a href="../../../api/">API</a> section.</p>
 </div>
 <h2 id="static-debugging-with-cdebug">Static debugging with <code>CDebug</code></h2>
 <p><code>CDebug</code> class provides static methods to log debug messages from anywhere in the code. You can use it just like default <code>Debug</code> class. For example:</p>
@@ -115,7 +115,7 @@ CDebug.LogError(&quot;This is an error message&quot;);
 <p><img src="../../../images/coinpackages/debugging/cdebug_output_2.jpg" alt="Output"></p>
 <h2 id="logging-with-clogger">Logging with <code>CLogger</code></h2>
 <p><code>CLogger</code> class provides a way to create custom loggers for different parts of your code. It is useful when you want to turn on/off debugging messages for specific functionalities, have more control over what is logged at a given time, or just want to have different colors for different parts of your code.</p>
-<p>To create a new logger, create a new instance of <code>CLogger</code> class and pass a <code>string</code> as a logger <code>tag</code>.</p>
+<p>To create a new logger, create a new instance of <code>CLogger</code> class and pass a <code>object</code> (this time it's a <code>string</code>) as a logger <code>tag</code>.</p>
 <pre><code class="lang-cs">public class MyClass : MonoBehaviour {
     private CLogger _myLogger;
     void Start() {
@@ -127,7 +127,7 @@ CDebug.LogError(&quot;This is an error message&quot;);
 <p>You can use <code>CLogger</code> class just like <code>CDebug</code> class, but each instance can have its own settings.</p>
 <p>Here is an example of using <code>CLogger</code> class:</p>
 <pre><code class="lang-cs">void Start() {
-        // Change default log color of all instances
+        // Change default log color of all instances.
         // For it to have any effect, you must change this
         // setting before initialization of any instance
         CLogger.DefaultInfoColor = Colorize.Cyan;
@@ -144,7 +144,7 @@ CDebug.LogError(&quot;This is an error message&quot;);
                 First = &quot;&lt;--&quot;,
                 Second = &quot;|&gt;&quot;
             },
-            // Override default setting for default log messages
+            // Override default setting for log messages
             InfoColor = Colorize.Red
         };
 
@@ -160,6 +160,28 @@ CDebug.LogError(&quot;This is an error message&quot;);
 </code></pre>
 <p>This will result in the following output:</p>
 <p><img src="../../../images/coinpackages/debugging/clogger_output_1.jpg" alt="Output"></p>
+<h2 id="colouring-text-with-colorize">Colouring text with <code>Colorize</code></h2>
+<p><code>Colorize</code> class provides a way to color text in the console. It is used by <code>CDebug</code> and <code>CLogger</code> classes to color log messages. You can also use it to color your own text.</p>
+<p>Example usage:</p>
+<pre><code class="lang-cs">// Colorize using `%` operator
+CDebug.Log($&quot;I am {&quot;red&quot; % Colorize.Red} and I am {&quot;green&quot; % Colorize.Green}.&quot;);
+
+// Colorize using `Colorize.ColorizeText` method
+CDebug.Log($&quot;I am {Colorize.ColorizeText(&quot;red&quot;, Colorize.Red)} and I am {Colorize.ColorizeText(&quot;green&quot;, Colorize.Green)}.&quot;);
+
+// Another way
+CDebug.Log($&quot;I am {Colorize.ColorizeText(&quot;red&quot;, Color.red)} and I am {Colorize.ColorizeText(&quot;green&quot;, &quot;#00FF00&quot;)}.&quot;);
+</code></pre>
+<p>Output:</p>
+<p><img src="../../../images/coinpackages/debugging/colorize_output_1.jpg" alt="Output"></p>
+<p>Nothing stops you from defining your own colors:</p>
+<pre><code class="lang-cs">Colorize myMagenta = new Colorize(Color.magenta);
+Colorize myCustomColor = new Colorize(&quot;#ffc400&quot;);
+
+CDebug.Log($&quot;This is {&quot;magenta&quot; % myMagenta}, and this is {&quot;custom&quot; % myCustomColor}.&quot;);
+</code></pre>
+<p>Output:</p>
+<p><img src="../../../images/coinpackages/debugging/colorize_output_2.jpg" alt="Output"></p>
 </article>
 
 
