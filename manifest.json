@@ -54,106 +54,6 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.Leaderboards.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.Leaderboards.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkPlayer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.NetworkPlayer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkServiceError.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.NetworkServiceError.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.NetworkServiceErrorCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.NetworkServiceErrorCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.Settings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.Statistics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.Statistics.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.Utils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.Utils.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.NetworkServices.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.NetworkServices.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.Test.Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.Test.Test.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CoinPackage.Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CoinPackage.Test.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -258,6 +158,26 @@
       "output": {
         "resource": {
           "relative_path": "images/coinpackages/debugging/clogger_output_1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/coinpackages/debugging/colorize_output_1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/coinpackages/debugging/colorize_output_1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/coinpackages/debugging/colorize_output_2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/coinpackages/debugging/colorize_output_2.jpg"
         }
       },
       "version": ""

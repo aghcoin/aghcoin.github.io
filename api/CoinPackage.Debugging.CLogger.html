@@ -79,7 +79,7 @@
 
   <h1 id="CoinPackage_Debugging_CLogger" data-uid="CoinPackage.Debugging.CLogger" class="text-break">
     Class CLogger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -87,7 +87,9 @@
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Replaces default logger. Supports automatic Tag handling, log colouring,
+easy on/off and different log handlers.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -146,20 +148,22 @@
 
   <h3 id="CoinPackage_Debugging_CLogger__ctor_System_Object_" data-uid="CoinPackage.Debugging.CLogger.#ctor(System.Object)">
   CLogger(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates default logger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CLogger(object context)</code></pre>
+    <pre><code class="lang-csharp hljs">public CLogger(object tag)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Tag wich will distinguish this logger.</p>
+</dd>
   </dl>
 
 
@@ -177,22 +181,25 @@
 
   <h3 id="CoinPackage_Debugging_CLogger__ctor_System_Object_ILogHandler_" data-uid="CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)">
   CLogger(object, ILogHandler)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates logger with specified log handler.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CLogger(object context, ILogHandler logHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public CLogger(object tag, ILogHandler logHandler)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Tag wich will distinguish this logger.</p>
+</dd>
     <dt><code>logHandler</code> <span class="xref">ILogHandler</span></dt>
-    <dd></dd>
+    <dd><p>Log handler to be used by this logger.</p>
+</dd>
   </dl>
 
 
@@ -213,10 +220,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_DefaultErrorColor" data-uid="CoinPackage.Debugging.CLogger.DefaultErrorColor">
   DefaultErrorColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default color of error messages for newly created loggers.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -243,10 +251,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_DefaultInfoColor" data-uid="CoinPackage.Debugging.CLogger.DefaultInfoColor">
   DefaultInfoColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default color of normal log messages for newly created loggers.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -273,10 +282,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_DefaultLogHandler" data-uid="CoinPackage.Debugging.CLogger.DefaultLogHandler">
   DefaultLogHandler
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Defines default log handler for newly created loggers.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -303,10 +313,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_DefaultTagDecorator" data-uid="CoinPackage.Debugging.CLogger.DefaultTagDecorator">
   DefaultTagDecorator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Defines default tag decorator for newly created loggers.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -333,10 +344,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_DefaultWarningColor" data-uid="CoinPackage.Debugging.CLogger.DefaultWarningColor">
   DefaultWarningColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default color of warning messages for newly created loggers.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -363,10 +375,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_ErrorColor" data-uid="CoinPackage.Debugging.CLogger.ErrorColor">
   ErrorColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Color of error messages.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -393,10 +406,13 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_ForceAllLoggersEnabled" data-uid="CoinPackage.Debugging.CLogger.ForceAllLoggersEnabled">
   ForceAllLoggersEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether to force all loggers to be enabled. When set to true, it overrides
+each logger settings and enables them. Will not work if <code>GlobalLogEnabled</code> is
+set to false.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -423,10 +439,12 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_GlobalLogEnabled" data-uid="CoinPackage.Debugging.CLogger.GlobalLogEnabled">
   GlobalLogEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether to enable loggers. When set to false, it overrides each logger
+instance settings and disables them.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -453,10 +471,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_InfoColor" data-uid="CoinPackage.Debugging.CLogger.InfoColor">
   InfoColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Color of normal log messages.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -483,10 +502,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_WarningColor" data-uid="CoinPackage.Debugging.CLogger.WarningColor">
   WarningColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Color of warning messages.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -518,10 +538,12 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogEnabled" data-uid="CoinPackage.Debugging.CLogger.LogEnabled">
   LogEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Whether this instance of logger should be enabled. This setting might
+be overwritten by class fields <code>GlobalLogEnabled</code> and <code>ForceAllLoggersEnabled</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -549,10 +571,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_TagDecorator" data-uid="CoinPackage.Debugging.CLogger.TagDecorator">
   TagDecorator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets tag decorators for this instance of logger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -584,10 +607,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_Log_System_Object_" data-uid="CoinPackage.Debugging.CLogger.Log(System.Object)">
   Log(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs message to the Unity console using InfoColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -597,7 +621,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
   </dl>
 
 
@@ -615,10 +640,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_Log_System_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)">
   Log(object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs message to the Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -628,9 +654,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
   </dl>
 
 
@@ -648,10 +676,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_" data-uid="CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)">
   Log(object, Object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs message to the Unity console using InfoColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -661,9 +690,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the message applies.</p>
+</dd>
   </dl>
 
 
@@ -681,10 +712,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)">
   Log(object, Object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs message to the Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -694,11 +726,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the message applies.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
   </dl>
 
 
@@ -716,10 +751,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogError_System_Object_" data-uid="CoinPackage.Debugging.CLogger.LogError(System.Object)">
   LogError(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs error message to the Unity console using ErrorColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -729,7 +765,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
   </dl>
 
 
@@ -747,10 +784,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogError_System_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)">
   LogError(object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs error message to the Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -760,9 +798,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
   </dl>
 
 
@@ -780,10 +820,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_" data-uid="CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)">
   LogError(object, Object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs error message to the Unity console using ErrorColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -793,9 +834,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the message applies.</p>
+</dd>
   </dl>
 
 
@@ -813,10 +856,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)">
   LogError(object, Object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs error message to the Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -826,11 +870,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the message applies.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
   </dl>
 
 
@@ -848,10 +895,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogException_System_Exception_" data-uid="CoinPackage.Debugging.CLogger.LogException(System.Exception)">
   LogException(Exception)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs exception message.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -879,10 +927,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogException_System_Exception_UnityEngine_Object_" data-uid="CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)">
   LogException(Exception, Object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs exception message.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -892,9 +941,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-    <dd></dd>
+    <dd><p>Runtime Exception.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the exception applies.</p>
+</dd>
   </dl>
 
 
@@ -912,10 +963,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogFormat_LogType_System_String_CoinPackage_Debugging_Colorize_System_Object___" data-uid="CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,CoinPackage.Debugging.Colorize,System.Object[])">
   LogFormat(LogType, string, Colorize, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L298"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs formatted message to Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -925,13 +977,17 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>logType</code> <span class="xref">LogType</span></dt>
-    <dd></dd>
+    <dd><p>Type of the log message.</p>
+</dd>
     <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Composite format string.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
     <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
-    <dd></dd>
+    <dd><p>Format arguments.</p>
+</dd>
   </dl>
 
 
@@ -949,10 +1005,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogFormat_LogType_System_String_System_Object___" data-uid="CoinPackage.Debugging.CLogger.LogFormat(LogType,System.String,System.Object[])">
   LogFormat(LogType, string, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L272"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs formatted message to Unity console. Color depends on LogType supplied.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -962,11 +1019,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>logType</code> <span class="xref">LogType</span></dt>
-    <dd></dd>
+    <dd><p>Type of the log message.</p>
+</dd>
     <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Composite format string.</p>
+</dd>
     <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
-    <dd></dd>
+    <dd><p>Format arguments.</p>
+</dd>
   </dl>
 
 
@@ -984,10 +1044,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogWarning_System_Object_" data-uid="CoinPackage.Debugging.CLogger.LogWarning(System.Object)">
   LogWarning(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs warning message to the Unity console using WarningColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -997,7 +1058,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
   </dl>
 
 
@@ -1015,10 +1077,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogWarning_System_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)">
   LogWarning(object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs warning message to the Unity console using specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1028,9 +1091,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>color</code> <a class="xref" href="CoinPackage.Debugging.Colorize.html">Colorize</a></dt>
-    <dd></dd>
+    <dd><p>Color of the message.</p>
+</dd>
   </dl>
 
 
@@ -1048,10 +1113,11 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_" data-uid="CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)">
   LogWarning(object, Object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logs warning message to the Unity console using WarningColor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1061,9 +1127,11 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dd><p>Message to be logged.</p>
+</dd>
     <dt><code>context</code> <span class="xref">Object</span></dt>
-    <dd></dd>
+    <dd><p>Object to which the message applies.</p>
+</dd>
   </dl>
 
 
@@ -1081,7 +1149,7 @@
 
   <h3 id="CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_" data-uid="CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)">
   LogWarning(object, Object, Colorize)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/aghcoin/aghcoin.github.io/blob/master/docs/src/CoinPackage/Debugging/CLogger.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
