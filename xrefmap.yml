@@ -44,33 +44,6 @@ references:
   commentId: F:CoinPackage.Debugging.CDebug.DebugWarningColor
   fullName: CoinPackage.Debugging.CDebug.DebugWarningColor
   nameWithType: CDebug.DebugWarningColor
-- uid: CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
-  name: Log(object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: Log(Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.Log(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.Log(object, Colorize)
-  nameWithType.vb: CDebug.Log(Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: Log(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: Log(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.Log(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
-  name: Log(object, Object)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
-  name.vb: Log(Object, Object)
-  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object)
-  nameWithType: CDebug.Log(object, UnityEngine.Object)
-  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CDebug.Log(System.Object)
   name: Log(object)
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_
@@ -80,6 +53,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CDebug.Log(Object)
   nameWithType: CDebug.Log(object)
   nameWithType.vb: CDebug.Log(Object)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.Log(object, Colorize)
+  nameWithType.vb: CDebug.Log(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
+  name: Log(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object)
+  name.vb: Log(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object)
+  nameWithType: CDebug.Log(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.Log(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.Log(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CDebug.Log*
   name: Log
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_Log_
@@ -87,33 +87,6 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CDebug.Log
   nameWithType: CDebug.Log
-- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
-  name: LogError(object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogError(Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.LogError(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.LogError(object, Colorize)
-  nameWithType.vb: CDebug.LogError(Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: LogError(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogError(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.LogError(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
-  name: LogError(object, Object)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
-  name.vb: LogError(Object, Object)
-  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object)
-  nameWithType: CDebug.LogError(object, UnityEngine.Object)
-  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CDebug.LogError(System.Object)
   name: LogError(object)
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_
@@ -123,6 +96,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object)
   nameWithType: CDebug.LogError(object)
   nameWithType.vb: CDebug.LogError(Object)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogError(object, Colorize)
+  nameWithType.vb: CDebug.LogError(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
+  name: LogError(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object)
+  name.vb: LogError(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object)
+  nameWithType: CDebug.LogError(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogError(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.LogError(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CDebug.LogError*
   name: LogError
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogError_
@@ -130,18 +130,18 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CDebug.LogError
   nameWithType: CDebug.LogError
-- uid: CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
-  name: LogException(Exception, Object)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_System_Exception_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
-  fullName: CoinPackage.Debugging.CDebug.LogException(System.Exception, UnityEngine.Object)
-  nameWithType: CDebug.LogException(Exception, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CDebug.LogException(System.Exception)
   name: LogException(Exception)
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_System_Exception_
   commentId: M:CoinPackage.Debugging.CDebug.LogException(System.Exception)
   fullName: CoinPackage.Debugging.CDebug.LogException(System.Exception)
   nameWithType: CDebug.LogException(Exception)
+- uid: CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
+  name: LogException(Exception, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_System_Exception_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogException(System.Exception,UnityEngine.Object)
+  fullName: CoinPackage.Debugging.CDebug.LogException(System.Exception, UnityEngine.Object)
+  nameWithType: CDebug.LogException(Exception, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CDebug.LogException*
   name: LogException
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogException_
@@ -174,33 +174,6 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CDebug.LogFormat
   nameWithType: CDebug.LogFormat
-- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
-  name: LogWarning(object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogWarning(Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.LogWarning(object, Colorize)
-  nameWithType.vb: CDebug.LogWarning(Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: LogWarning(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogWarning(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CDebug.LogWarning(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
-  name: LogWarning(object, Object)
-  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
-  name.vb: LogWarning(Object, Object)
-  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object)
-  nameWithType: CDebug.LogWarning(object, UnityEngine.Object)
-  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object)
   name: LogWarning(object)
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_
@@ -210,6 +183,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object)
   nameWithType: CDebug.LogWarning(object)
   nameWithType.vb: CDebug.LogWarning(Object)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogWarning(object, Colorize)
+  nameWithType.vb: CDebug.LogWarning(Object, Colorize)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
+  name: LogWarning(object, Object)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object)
+  name.vb: LogWarning(Object, Object)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object)
+  nameWithType: CDebug.LogWarning(object, UnityEngine.Object)
+  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CDebug.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CDebug.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CDebug.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CDebug.LogWarning(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CDebug.LogWarning(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CDebug.LogWarning*
   name: LogWarning
   href: api/CoinPackage.Debugging.CDebug.html#CoinPackage_Debugging_CDebug_LogWarning_
@@ -236,15 +236,6 @@ references:
   commentId: T:CoinPackage.Debugging.CLogger
   fullName: CoinPackage.Debugging.CLogger
   nameWithType: CLogger
-- uid: CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
-  name: CLogger(object, ILogHandler)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_System_Object_ILogHandler_
-  commentId: M:CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
-  name.vb: New(Object, ILogHandler)
-  fullName: CoinPackage.Debugging.CLogger.CLogger(object, ILogHandler)
-  fullName.vb: CoinPackage.Debugging.CLogger.New(Object, ILogHandler)
-  nameWithType: CLogger.CLogger(object, ILogHandler)
-  nameWithType.vb: CLogger.New(Object, ILogHandler)
 - uid: CoinPackage.Debugging.CLogger.#ctor(System.Object)
   name: CLogger(object)
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_System_Object_
@@ -254,6 +245,15 @@ references:
   fullName.vb: CoinPackage.Debugging.CLogger.New(Object)
   nameWithType: CLogger.CLogger(object)
   nameWithType.vb: CLogger.New(Object)
+- uid: CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
+  name: CLogger(object, ILogHandler)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_System_Object_ILogHandler_
+  commentId: M:CoinPackage.Debugging.CLogger.#ctor(System.Object,ILogHandler)
+  name.vb: New(Object, ILogHandler)
+  fullName: CoinPackage.Debugging.CLogger.CLogger(object, ILogHandler)
+  fullName.vb: CoinPackage.Debugging.CLogger.New(Object, ILogHandler)
+  nameWithType: CLogger.CLogger(object, ILogHandler)
+  nameWithType.vb: CLogger.New(Object, ILogHandler)
 - uid: CoinPackage.Debugging.CLogger.#ctor*
   name: CLogger
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger__ctor_
@@ -318,33 +318,6 @@ references:
   commentId: F:CoinPackage.Debugging.CLogger.InfoColor
   fullName: CoinPackage.Debugging.CLogger.InfoColor
   nameWithType: CLogger.InfoColor
-- uid: CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
-  name: Log(object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: Log(Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.Log(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.Log(object, Colorize)
-  nameWithType.vb: CLogger.Log(Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: Log(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: Log(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.Log(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
-  name: Log(object, Object)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
-  name.vb: Log(Object, Object)
-  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object)
-  nameWithType: CLogger.Log(object, UnityEngine.Object)
-  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CLogger.Log(System.Object)
   name: Log(object)
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_
@@ -354,6 +327,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CLogger.Log(Object)
   nameWithType: CLogger.Log(object)
   nameWithType.vb: CLogger.Log(Object)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.Log(object, Colorize)
+  nameWithType.vb: CLogger.Log(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
+  name: Log(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object)
+  name.vb: Log(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object)
+  nameWithType: CLogger.Log(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: Log(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.Log(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Log(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.Log(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.Log(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.Log(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.Log(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CLogger.Log*
   name: Log
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_Log_
@@ -374,33 +374,6 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CLogger.LogEnabled
   nameWithType: CLogger.LogEnabled
-- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
-  name: LogError(object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogError(Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.LogError(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.LogError(object, Colorize)
-  nameWithType.vb: CLogger.LogError(Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: LogError(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogError(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.LogError(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
-  name: LogError(object, Object)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
-  name.vb: LogError(Object, Object)
-  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object)
-  nameWithType: CLogger.LogError(object, UnityEngine.Object)
-  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CLogger.LogError(System.Object)
   name: LogError(object)
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_
@@ -410,6 +383,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object)
   nameWithType: CLogger.LogError(object)
   nameWithType.vb: CLogger.LogError(Object)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogError(object, Colorize)
+  nameWithType.vb: CLogger.LogError(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
+  name: LogError(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object)
+  name.vb: LogError(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object)
+  nameWithType: CLogger.LogError(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogError(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogError(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogError(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogError(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogError(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogError(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.LogError(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CLogger.LogError*
   name: LogError
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogError_
@@ -417,18 +417,18 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CLogger.LogError
   nameWithType: CLogger.LogError
-- uid: CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
-  name: LogException(Exception, Object)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_System_Exception_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
-  fullName: CoinPackage.Debugging.CLogger.LogException(System.Exception, UnityEngine.Object)
-  nameWithType: CLogger.LogException(Exception, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CLogger.LogException(System.Exception)
   name: LogException(Exception)
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_System_Exception_
   commentId: M:CoinPackage.Debugging.CLogger.LogException(System.Exception)
   fullName: CoinPackage.Debugging.CLogger.LogException(System.Exception)
   nameWithType: CLogger.LogException(Exception)
+- uid: CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
+  name: LogException(Exception, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_System_Exception_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogException(System.Exception,UnityEngine.Object)
+  fullName: CoinPackage.Debugging.CLogger.LogException(System.Exception, UnityEngine.Object)
+  nameWithType: CLogger.LogException(Exception, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CLogger.LogException*
   name: LogException
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogException_
@@ -461,33 +461,6 @@ references:
   isSpec: "True"
   fullName: CoinPackage.Debugging.CLogger.LogFormat
   nameWithType: CLogger.LogFormat
-- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
-  name: LogWarning(object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogWarning(Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.LogWarning(object, Colorize)
-  nameWithType.vb: CLogger.LogWarning(Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name: LogWarning(object, Object, Colorize)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
-  name.vb: LogWarning(Object, Object, Colorize)
-  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
-  nameWithType: CLogger.LogWarning(object, UnityEngine.Object, Colorize)
-  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object, Colorize)
-- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
-  name: LogWarning(object, Object)
-  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_
-  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
-  name.vb: LogWarning(Object, Object)
-  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object)
-  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object)
-  nameWithType: CLogger.LogWarning(object, UnityEngine.Object)
-  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object)
 - uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object)
   name: LogWarning(object)
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_
@@ -497,6 +470,33 @@ references:
   fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object)
   nameWithType: CLogger.LogWarning(object)
   nameWithType.vb: CLogger.LogWarning(Object)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogWarning(object, Colorize)
+  nameWithType.vb: CLogger.LogWarning(Object, Colorize)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
+  name: LogWarning(object, Object)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object)
+  name.vb: LogWarning(Object, Object)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object)
+  nameWithType: CLogger.LogWarning(object, UnityEngine.Object)
+  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object)
+- uid: CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name: LogWarning(object, Object, Colorize)
+  href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_System_Object_UnityEngine_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.CLogger.LogWarning(System.Object,UnityEngine.Object,CoinPackage.Debugging.Colorize)
+  name.vb: LogWarning(Object, Object, Colorize)
+  fullName: CoinPackage.Debugging.CLogger.LogWarning(object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.CLogger.LogWarning(Object, UnityEngine.Object, CoinPackage.Debugging.Colorize)
+  nameWithType: CLogger.LogWarning(object, UnityEngine.Object, Colorize)
+  nameWithType.vb: CLogger.LogWarning(Object, UnityEngine.Object, Colorize)
 - uid: CoinPackage.Debugging.CLogger.LogWarning*
   name: LogWarning
   href: api/CoinPackage.Debugging.CLogger.html#CoinPackage_Debugging_CLogger_LogWarning_
@@ -669,25 +669,6 @@ references:
   commentId: F:CoinPackage.Debugging.Colorize.Olive
   fullName: CoinPackage.Debugging.Colorize.Olive
   nameWithType: Colorize.Olive
-- uid: CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
-  name: operator %(object, Colorize)
-  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_System_Object_CoinPackage_Debugging_Colorize_
-  commentId: M:CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
-  name.vb: Mod(Object, Colorize)
-  fullName: CoinPackage.Debugging.Colorize.operator %(object, CoinPackage.Debugging.Colorize)
-  fullName.vb: CoinPackage.Debugging.Colorize.Mod(Object, CoinPackage.Debugging.Colorize)
-  nameWithType: Colorize.operator %(object, Colorize)
-  nameWithType.vb: Colorize.Mod(Object, Colorize)
-- uid: CoinPackage.Debugging.Colorize.op_Modulus*
-  name: operator %
-  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_
-  commentId: Overload:CoinPackage.Debugging.Colorize.op_Modulus
-  isSpec: "True"
-  name.vb: Mod
-  fullName: CoinPackage.Debugging.Colorize.operator %
-  fullName.vb: CoinPackage.Debugging.Colorize.Mod
-  nameWithType: Colorize.operator %
-  nameWithType.vb: Colorize.Mod
 - uid: CoinPackage.Debugging.Colorize.Orange
   name: Orange
   href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_Orange
@@ -718,3 +699,22 @@ references:
   commentId: F:CoinPackage.Debugging.Colorize.Yellow
   fullName: CoinPackage.Debugging.Colorize.Yellow
   nameWithType: Colorize.Yellow
+- uid: CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
+  name: operator %(object, Colorize)
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_System_Object_CoinPackage_Debugging_Colorize_
+  commentId: M:CoinPackage.Debugging.Colorize.op_Modulus(System.Object,CoinPackage.Debugging.Colorize)
+  name.vb: Mod(Object, Colorize)
+  fullName: CoinPackage.Debugging.Colorize.operator %(object, CoinPackage.Debugging.Colorize)
+  fullName.vb: CoinPackage.Debugging.Colorize.Mod(Object, CoinPackage.Debugging.Colorize)
+  nameWithType: Colorize.operator %(object, Colorize)
+  nameWithType.vb: Colorize.Mod(Object, Colorize)
+- uid: CoinPackage.Debugging.Colorize.op_Modulus*
+  name: operator %
+  href: api/CoinPackage.Debugging.Colorize.html#CoinPackage_Debugging_Colorize_op_Modulus_
+  commentId: Overload:CoinPackage.Debugging.Colorize.op_Modulus
+  isSpec: "True"
+  name.vb: Mod
+  fullName: CoinPackage.Debugging.Colorize.operator %
+  fullName.vb: CoinPackage.Debugging.Colorize.Mod
+  nameWithType: Colorize.operator %
+  nameWithType.vb: Colorize.Mod
